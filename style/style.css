@@ -118,6 +118,13 @@ img{
     height: 100%;
 }
 
+aside ul{
+    padding: 10px;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+}
+
 footer{
     text-align: center;
     background-color: var(--cor4);
@@ -189,13 +196,6 @@ footer p{
 
 .div_more > p, ul{
     padding: 5px 10px 5px 10px;
-}
-
-aside ul{
-    padding: 30px;
-    list-style-type: '\2714\00a0\00a0';
-    list-style-position: inside;
-    columns: 2;
 }
 
 .link > a{
