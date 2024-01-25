@@ -90,7 +90,6 @@ nav > a{
     font-weight: 600;
     border-radius: 3px;
     transition-duration: 0.5s;
-    white-space: nowrap;
 }
 
 nav a:hover{
@@ -106,6 +105,11 @@ main{
     box-shadow: 3px 0px 5px var(--cor-shadow), -3px 3px 5px var(--cor-shadow);
     margin-bottom: 15px;
     border-radius: 0px 0px 6px 6px;
+}
+
+main p{
+    text-indent: 16px;
+    text-align: justify;
 }
 
 main a{
@@ -164,16 +168,12 @@ footer a:hover{
 
 a{
     padding: 3px 5px;
+    white-space: nowrap;
 }
 
 #history{
     padding-left: 16px;
     padding-right: 16px;
-}
-
-main p{
-    text-indent: 16px;
-    text-align: justify;
 }
 
 .video{
@@ -208,9 +208,10 @@ main p{
 #more p{
     text-indent: 16px;
     text-align: justify;
+    padding: 8px;
 }
 
-.div_more{
+#more div{
     background-color: var(--cor0);
     border-radius: 7px;
     padding-bottom: 10px;
